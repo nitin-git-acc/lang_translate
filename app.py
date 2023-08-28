@@ -18,16 +18,16 @@ def main():
 
     st.write("---")
 
-    # Response text boxes
+   # Response text boxes
     st.text("ChatGPT Response:")
-    chatgpt_response = st.text_area("", "")
+    chatgpt_response = st.text_area("## ChatGPT", "")
 
     st.text("Google BARD Response:")
-    google_bard_response = st.text_area("", "")
+    google_bard_response = st.text_area("## Google BARD", "")
 
     st.text("Amazon NMT Response:")
-    amazon_nmt_response = st.text_area("", "")
-
+    amazon_nmt_response = st.text_area("## Amazon NMT", "")
+    
 def translate_text(text, source_lang, target_lang):
     # Placeholder translation function
     # You would use an actual translation API here
