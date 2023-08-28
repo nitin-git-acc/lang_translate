@@ -7,8 +7,8 @@ def main():
     input_text = st.text_area("Enter text to translate:", "")
 
     # Language selection
-    translate_from_lang = st.selectbox("Translate from:", ["en", "fr", "gr"])
-    translate_to_lang = st.selectbox("Translate to:", ["en", "fr", "gr"])
+    translate_from_lang = st.selectbox("Translate from:", ["English","Español","Français","Português"])
+    translate_to_lang = st.selectbox("Translate to:", ["English","Español","Français","Português"])
 
     # Display translation
     translation_button = st.button("Translate")
